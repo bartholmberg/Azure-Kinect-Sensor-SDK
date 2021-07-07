@@ -35,6 +35,8 @@ bld/
 [Oo]bj/
 [Ll]og/
 
+extern/libsoundio/
+*.exe
 # Visual Studio 2015 cache/options directory
 .vs/
 # Visual Studio code
@@ -304,3 +306,10 @@ __pycache__/
 /.settings
 *.project
 *.cproject
+extern/libsoundio/CMakeFiles/3.20.5/CMakeDetermineCompilerABI_C.bin
+extern/libsoundio/CMakeFiles/3.20.5/CMakeDetermineCompilerABI_CXX.bin
+extern/libsoundio/CMakeFiles/3.20.5/CompilerIdC/CMakeCCompilerId.c
+extern/libsoundio/CMakeFiles/3.20.5/CompilerIdC/CompilerIdC.vcxproj
+extern/libsoundio/CMakeFiles/3.20.5/CompilerIdCXX/CMakeCXXCompilerId.cpp
+extern/libsoundio/CMakeCache.txt
+extern/libsoundio/CMakeFiles/3.20.5/CompilerIdCXX/CompilerIdCXX.vcxproj

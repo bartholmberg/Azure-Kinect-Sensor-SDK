@@ -7,8 +7,12 @@
 # Visual Studio 2017 15.3 - CMake 3.8
 # Visual Studio 2017 15.4 - CMake 3.9
 # Visual Studio 2017 15.7 - CMake 3.11
+#
+# BAH, July 7, 2021
 cmake_minimum_required(VERSION 3.9.0)
-
+#set( PROJECT_VERSION 1.1 )
+#set(   PROJECT_VERSION_MAJOR 1 )
+#set(   PROJECT_VERSION_MINOR 1 )
 cmake_policy(SET CMP0048 NEW)
 
 # Add this repository's cmake modules to CMAKE_MODULE_PATH
@@ -39,7 +43,7 @@ set(K4A_ICON_PATH ${CMAKE_CURRENT_LIST_DIR}/kinect-viewer.ico)
 set(PROJ_DIR ${CMAKE_CURRENT_LIST_DIR})
 set(INCLUDE_DIR ${PROJ_DIR}/include)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_C_STANDARD 99)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
